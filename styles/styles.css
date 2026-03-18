@@ -11,7 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #a081c2, #2575fc);
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 .container {
@@ -21,12 +24,13 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     width: 100%;
     max-width: 400px;
+    background: linear-gradient(135deg, #df6909d8, #2574fc63);
 }
 
 h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #333;
+    color: #000000;
     font-family: 'Times New Roman', Times, serif;
 }
 
